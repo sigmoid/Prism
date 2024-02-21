@@ -17,7 +17,8 @@
     "react-simple-code-editor": "^0.13.1",
     "use-debounced-effect": "^2.0.1",
     "uuid": "^9.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "prism-data": "file:../prism-data"
   },
   "scripts": {
     "start": "react-scripts start",

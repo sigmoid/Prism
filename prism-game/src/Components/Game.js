@@ -35,7 +35,7 @@ const Game = (props) =>{
 
     const renderRightSide = () =>{
         if(currentScreen === 'camp')    
-            return (<Camp fireLevel={gameData.fireLevel} setCurrentScreen={setCurrentScreen}/>);
+            return (<Camp fireLevel={gameData.fireLevel} gameData={gameData} setGameData={setGameData} setCurrentScreen={setCurrentScreen}/>);
         else if (currentScreen === 'venture')
             return (<Venture setCurrentScreen={setCurrentScreen} gameData={gameData} setGameData={setGameData}></Venture>);
     }

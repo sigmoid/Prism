@@ -4,8 +4,7 @@ import {FaPaintBrush, FaTable} from 'react-icons/fa';
 import {v4 as uuidv4} from 'uuid';
 import useDebouncedEffect from "use-debounced-effect";
 import LinkButton from "./LinkButton";
-import { map } from "jquery";
-import prefabTiles from "../Data/PrefabTiles";
+import prefabTiles from "prism-data/PrefabTiles";
 
 const MapEditor = () =>{
     const [mapData, setMapData] = useState(null);

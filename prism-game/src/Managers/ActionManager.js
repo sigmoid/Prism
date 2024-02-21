@@ -1,4 +1,4 @@
-import items from '../Data/Items.json'
+import items from 'prism-data/Items'
 import {v4 as uuidv4} from 'uuid';
 
 const addItem = (itemName, quantity, setGameData) => {
@@ -19,8 +19,7 @@ const isActionAvailable = (action, gameData) => {
         const precondition = action.preconditions[i];
 
         if (precondition.type === 'item') {
-            const foundItemIdx = gameData.inventory.findIndex(x => x.itemName === precondition.itemName && x.wear >= precondition.wear);
-
+            const foundItemIdx = gameData.inventory.findIndex(x => x.itemType === precondition.itemType && x.wear >= precondition.itemWear);
             if (foundItemIdx === -1){
                 return false;
             }
@@ -33,7 +32,7 @@ const checkPrecondition = (precondition, gameData, setGameData) =>
 {
     if(precondition.type === 'item')
     {
-        const foundItemIdx = gameData.inventory.findIndex(x => x.itemName === precondition.itemName && x.wear >= precondition.wear);
+        const foundItemIdx = gameData.inventory.findIndex(x => x.itemName === precondition.itemName && x.wear >= precondition.itemWear);
 
         if(foundItemIdx !== -1)
         {
@@ -67,7 +66,7 @@ const performAction = (action, gameData, setGameData) => {
     // Check preconditions
     for(const idx in action.preconditions)
     {
-        if(!checkPrecondition(action.preconditions[idx]))
+        if(!checkPrecondition(action.preconditions[idx], gameData, setGameData))
             return;
     }
 

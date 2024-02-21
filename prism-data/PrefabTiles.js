@@ -15,7 +15,7 @@ const prefabTiles = [
             actions:[
                 {
                     name:'collect sticks',
-                    cooldown:500,
+                    cooldown:2,
                     preconditions:[
                     ],
                     results:[
@@ -28,11 +28,11 @@ const prefabTiles = [
                 },
                 {
                     name:'chop wood',
-                    cooldown: 2000,
+                    cooldown: 5,
                     preconditions: [
                         {
                             type: 'item',
-                            itemName: 'axe',
+                            itemType: 'axe',
                             itemWear: 1
                         }
                     ],
@@ -64,7 +64,7 @@ const prefabTiles = [
             actions:[
                 {
                     name:'collect stones',
-                    cooldown:500,
+                    cooldown:2,
                     preconditions: [],
                     results: [
                         {
@@ -76,11 +76,11 @@ const prefabTiles = [
                 },
                 {
                     name:'mine',
-                    cooldown: 2000,
+                    cooldown: 5,
                     preconditions: [
                         {
                             type: 'item',
-                            itemName: 'pickaxe',
+                            itemType: 'pickaxe',
                             itemWear: 1
                         }
                     ],
