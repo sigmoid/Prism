@@ -1,8 +1,9 @@
+/* Color Palette: https://colorhunt.co/palette/eeedebe0ccbe7472643c3633 */
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab&display=swap');
 
 .App {
   text-align: center;
-  background-color: #EEEDEB;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -16,6 +17,8 @@
   font-size: calc(10px + 2vmin);
   color: #EEEDEB;
   font-family: 'Josefin Slab', serif;
+  z-index: 1;
+  position:relative;
 }
 
 .App-footer{
@@ -42,4 +45,31 @@ color:#E0CCBE;
   to {
     transform: rotate(360deg);
   }
+}
+
+.left{
+  width:30%;
+  float:left;
+  background-color: #EEEDEB;
+  padding: 15px;
+  height:77%;
+}
+
+.right{
+  width:70%;
+  float:right;
+}
+
+.main-page-container{
+  display:flex;
+  width:100%;
+  height: 100vh;
+}
+
+.map-area{
+  width:500px;
+}
+
+.no-border:focus{
+  outline: none;
 }

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "stick",
+        "weight":"1",
+        "burnValue": "50"
+    },
+    {
+        "name": "stone",
+        "weight":"1",
+        "burnValue": "0"
+    }
+]
