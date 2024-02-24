@@ -1,17 +1,28 @@
 import items from 'prism-data/Items'
 import {v4 as uuidv4} from 'uuid';
 
-const addItem = (itemName, quantity, setGameData) => {
+const playerHasCapacity = (gameData, newItemWeight) => {
+    const inventoryWeight = gameData.inventory.reduce((acc, item) => (item.weight) ? acc + item.weight : acc, 0);
+
+    if (inventoryWeight + newItemWeight > gameData.inventoryCapacity)
+        return false;
+
+    return true;
+}
+
+const addItem = (itemName, quantity, gameData, setGameData) => {
     const item = items.find(x => x.name === itemName);
     
-    if(item)
+    if(item && playerHasCapacity(gameData, item.weight))
     {
         const itemsToAdd = Array.from({length:quantity}, () =>({
             ...item,
             id: uuidv4()
         }));
         setGameData(prevGameData => ({...prevGameData, inventory:[...prevGameData.inventory, ...itemsToAdd]}));
+        return true;
     }
+    return false;
 }
 
 const isActionAvailable = (action, gameData) => {
@@ -38,8 +49,6 @@ const checkPrecondition = (precondition, gameData, setGameData) =>
         {
             const newInventory = [...gameData.inventory];
             const itemToUpdate = newInventory[foundItemIdx];
-
-            console.log('aaayyyyy1', itemToUpdate, precondition)
 
             if(itemToUpdate.wear === precondition.itemWear)
             {
@@ -76,7 +85,23 @@ const performAction = (action, gameData, setGameData) => {
     for (const i in action.results) {
         const res = action.results[i];
         if (res.type === 'item') {
-            addItem(res.itemName, res.quantity, setGameData);
+            addItem(res.itemName, res.quantity, gameData, setGameData);
+        }
+        else if(res.type === 'random-item'){
+            const totalWeight = res.possibleDrops.reduce((acc, obj) => Number(acc) + Number(obj.probability),0);
+            const randomNum = Math.random() * totalWeight;
+
+            let cumulativeProbability = 0;
+
+            for(const obj of res.possibleDrops)
+            {
+                cumulativeProbability +=  obj.probability;
+                if(randomNum <= cumulativeProbability)
+                {
+                    addItem(obj.itemName, obj.quantity, gameData, setGameData);
+                    return;
+                }
+            }
         }
     }
 }

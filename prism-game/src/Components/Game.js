@@ -11,8 +11,10 @@ const Game = (props) =>{
         inventory: [{name:'stick', id:0, burnValue:40}, {name:'stick', id:1, burnValue:40}],
         mapData:[
         ],
+        flags:[],
         playerPosition:[9,5],
-        fireLevel:100
+        fireLevel:100,
+        inventoryCapacity: 100
     });
     const [currentScreen, setCurrentScreen] = useState('camp');
 
@@ -43,7 +45,7 @@ const Game = (props) =>{
     return (
         <div className="main-page-container">
             <div className="m-3 left">
-                <Inventory inventory={gameData.inventory} stokeFire={stokeFire}/>
+                <Inventory gameData={gameData} canBurn={currentScreen === "camp"} stokeFire={stokeFire}/>
             </div>
             <div className="vertical-line" />
             <div className="m-3 right">

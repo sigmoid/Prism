@@ -6,11 +6,14 @@ const Camp = (props) => {
     const {fireLevel, gameData, setGameData, setCurrentScreen} = props;
 
     const renderCraftingRecipes = () => {
+        
         return CraftingRecipes.map(x => {
-            if(canCraftRecipe(x, gameData))
-                return (<LinkButton key={x.itemName} onClick={() => {craftRecipe(x, gameData, setGameData)}}>{x.itemName}</LinkButton>);
-            else
-               return (<></>)
+            console.log(x.ingredients)
+            if(x.prerequisites.length === 0 || x.prerequisites.every((prereq => {return gameData.flags.includes(prereq)})))
+                return (<div>
+                    <LinkButton disabled={!canCraftRecipe(x, gameData)} key={x.itemName} onClick={() => { craftRecipe(x, gameData, setGameData) }}>{x.itemName}</LinkButton>
+                    {x.ingredients.map(item => {return(<label className="ms-2" key={item.itemName + x.itemName}>({item.itemName + ' ' + item.quantity})</label>)})}
+                </div>);
         });
     }
 
