@@ -39,7 +39,9 @@ const checkPrecondition = (precondition, gameData, setGameData) =>
             const newInventory = [...gameData.inventory];
             const itemToUpdate = newInventory[foundItemIdx];
 
-            if(itemToUpdate.wear === precondition.wear)
+            console.log('aaayyyyy1', itemToUpdate, precondition)
+
+            if(itemToUpdate.wear === precondition.itemWear)
             {
                 newInventory.splice(foundItemIdx,1);
             }

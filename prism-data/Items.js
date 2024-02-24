@@ -16,7 +16,7 @@ const items = [
         itemType: 'axe',
         weight: 5,
         burnValue: 10,
-        wear:10,
+        wear:4,
     },
     {
         name: 'log',

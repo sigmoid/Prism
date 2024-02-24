@@ -16,7 +16,6 @@ const Venture = (props) => {
     },[gameData]);
     
     const onKeyDown = (e) => {
-        console.log('you bastartd')
         if (e.key === "ArrowUp"){
             e.preventDefault();
             move('n');
@@ -39,8 +38,6 @@ const Venture = (props) => {
         let xMove = 0;
         let yMove = 0;
 
-        console.log('move', direction);
-
         if(direction === 'e')
             xMove = 1;
         if(direction === 'w')
@@ -52,7 +49,6 @@ const Venture = (props) => {
 
         const curPos = gameData.playerPosition;
         const dest = gameData.mapData[curPos[1] + yMove][curPos[0] + xMove];
-        console.log('curpos,', curPos, ' dest', dest);
 
         // Don't let the player move into mountains
         if(dest.tileType === 'Mountain')
@@ -74,7 +70,7 @@ const Venture = (props) => {
             return (<span>{
                 row.map((tile, xIdx) => {
                     if (gameData.playerPosition[0] === xIdx && gameData.playerPosition[1] === yIdx)
-                        return '👨';
+                        return (<label className='ms-1'>👨</label>);
                     else
                         return (<label className='ms-1'> {tile.visual}</label>);
                 })}
