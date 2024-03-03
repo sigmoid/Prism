@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "text": "Hello",
+    "response": [
+      "2"
+    ]
+  },
+  {
+    "id":"2",
+    "text":"Well hi pardner boy",
+    "response":[
+    ],
+    "nextPrompt":"4"
+  },
+  {
+    "id":"3",
+    "text":"Shucks, Hi :)",
+    "response":[
+    ],
+    "nextPrompt":"4"
+  },
+  {
+    "id":"4",
+    "text":"What brings you to these parts?",
+    "response":[
+    ]
+  }
+]

@@ -10,7 +10,7 @@ const App = () =>
           <h2>Project PRISM</h2>
         </div>
       </div>
-      <Game></Game>
+      <Game className="content-area"></Game>
       <footer className="App-footer">
         <h6 className="m-3">Created by <a href="https://www.absurdwalls.com">ABSURD WALLS</a> | Inspired by <a href="https://adarkroom.doublespeakgames.com/">A Dark Room</a></h6>
       </footer>

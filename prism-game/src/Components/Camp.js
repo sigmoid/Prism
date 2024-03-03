@@ -8,7 +8,6 @@ const Camp = (props) => {
     const renderCraftingRecipes = () => {
         
         return CraftingRecipes.map(x => {
-            console.log(x.ingredients)
             if(x.prerequisites.length === 0 || x.prerequisites.every((prereq => {return gameData.flags.includes(prereq)})))
                 return (<div>
                     <LinkButton disabled={!canCraftRecipe(x, gameData)} key={x.itemName} onClick={() => { craftRecipe(x, gameData, setGameData) }}>{x.itemName}</LinkButton>

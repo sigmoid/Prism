@@ -3,7 +3,7 @@ import TimedButton from './TimedButton';
 import Inventory from './Inventory';
 import Camp from './Camp'
 import Venture from './Venture';
-import { render } from '@testing-library/react';
+import Dialogue from './Dialogue'
 import testMap from '../Map/testMap.json';
 
 const Game = (props) =>{
@@ -14,9 +14,13 @@ const Game = (props) =>{
         flags:[],
         playerPosition:[9,5],
         fireLevel:100,
-        inventoryCapacity: 100
+        inventoryCapacity: 100,
+        currentScreen:'camp'
     });
-    const [currentScreen, setCurrentScreen] = useState('camp');
+
+    const setCurrentScreen = (screen) => {
+        setGameData({...gameData, currentScreen:screen});
+    }
 
     const stokeFire = (item) =>{
         setGameData(prevGameData => ({...prevGameData, fireLevel: prevGameData.fireLevel + item.burnValue, inventory: prevGameData.inventory.filter(x => x.id !== item.id)}));
@@ -36,18 +40,19 @@ const Game = (props) =>{
     },[]);
 
     const renderRightSide = () =>{
-        if(currentScreen === 'camp')    
+        if(gameData.currentScreen === 'camp')    
             return (<Camp fireLevel={gameData.fireLevel} gameData={gameData} setGameData={setGameData} setCurrentScreen={setCurrentScreen}/>);
-        else if (currentScreen === 'venture')
+        else if (gameData.currentScreen === 'venture')
             return (<Venture setCurrentScreen={setCurrentScreen} gameData={gameData} setGameData={setGameData}></Venture>);
+        else if (gameData.currentScreen === 'dialogue')
+            return (<Dialogue gameData={gameData} setGameData={setGameData}></Dialogue>)
     }
 
     return (
         <div className="main-page-container">
             <div className="m-3 left">
-                <Inventory gameData={gameData} canBurn={currentScreen === "camp"} stokeFire={stokeFire}/>
+                <Inventory gameData={gameData} canBurn={gameData.currentScreen === "camp"} stokeFire={stokeFire}/>
             </div>
-            <div className="vertical-line" />
             <div className="m-3 right">
                 {renderRightSide()}
             </div>

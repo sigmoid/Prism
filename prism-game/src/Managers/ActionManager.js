@@ -103,6 +103,10 @@ const performAction = (action, gameData, setGameData) => {
                 }
             }
         }
+        else if (res.type === 'dialogue'){
+            const dialogueFile = res.filename;
+            setGameData({...gameData, currentScreen:'dialogue', dialogueFile:dialogueFile});
+        }
     }
 }
 

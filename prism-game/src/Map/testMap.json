@@ -1,1952 +1,1964 @@
 [
-    [
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "3b1520b9-1751-4b41-abcc-30540b440fd1"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "2738c2c1-2dd3-4f75-aa81-cce545511ba4"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "7c2b5029-d228-4528-aa41-8a7534a95dcc"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "972b4756-dbb8-476a-9a62-3182c10f1634"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "ae936c62-036f-42f7-8b7b-060904ec132f"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "5af8df12-51aa-44d7-acb2-f56fba23d740"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "c373edff-871e-488d-bd04-9967108ccfa9"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "08909e16-6c28-4189-add2-3159b69da48c"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "2e7e100b-6bf9-4bde-b14d-1f8d8b7f8e0d"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "fda8565d-284b-465d-8c1a-5274ee11c839"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "59506599-a9f1-4c4b-b97e-3b00d708b727"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "bba6b549-3a08-42a8-a549-9bfcdbeb4b87"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "378a371b-43d3-4b0d-867a-b184fd612703"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "34ab1b2e-1e94-4222-bdef-aa5232c4c8fb"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "e66ac633-2acc-4607-b321-b1b3c33c9f53"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "c5f89246-119f-4935-a5f8-ea3cc6bf9b86"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "256af649-d957-4677-9545-e438da86697d"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "be698018-c1c1-404e-a9f2-9e488022ae83"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "3b1520b9-1751-4b41-abcc-30540b440fd1"
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
         },
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "2738c2c1-2dd3-4f75-aa81-cce545511ba4"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "7c2b5029-d228-4528-aa41-8a7534a95dcc"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "972b4756-dbb8-476a-9a62-3182c10f1634"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "ae936c62-036f-42f7-8b7b-060904ec132f"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "5af8df12-51aa-44d7-acb2-f56fba23d740"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "c373edff-871e-488d-bd04-9967108ccfa9"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "08909e16-6c28-4189-add2-3159b69da48c"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "2e7e100b-6bf9-4bde-b14d-1f8d8b7f8e0d"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "fda8565d-284b-465d-8c1a-5274ee11c839"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "59506599-a9f1-4c4b-b97e-3b00d708b727"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "bba6b549-3a08-42a8-a549-9bfcdbeb4b87"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "378a371b-43d3-4b0d-867a-b184fd612703"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "34ab1b2e-1e94-4222-bdef-aa5232c4c8fb"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "e66ac633-2acc-4607-b321-b1b3c33c9f53"
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
         }
-    ],
-    [
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "f5ba44c1-0662-4306-9b59-653eafcc0e8b"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "c5f89246-119f-4935-a5f8-ea3cc6bf9b86"
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
         },
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "256af649-d957-4677-9545-e438da86697d"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "be698018-c1c1-404e-a9f2-9e488022ae83"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
-                },
-                {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "f5ba44c1-0662-4306-9b59-653eafcc0e8b"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
-                },
-                {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "4255cda0-2db1-417f-bbdd-57404b15e584"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
-                },
-                {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "cbbdea00-11e7-4bb8-97a6-109778698a34"
-        },
-        {
-            "visual": "⬜",
-            "id": "89007e93-46ee-4a27-b7fb-6323d7d37f02"
-        },
-        {
-            "visual": "⬜",
-            "id": "50cda87d-44f0-4e0a-af9f-b788910799ec"
-        },
-        {
-            "visual": "⬜",
-            "id": "bd1b5b16-c69b-4130-bb3e-c8f8c358b93f"
-        },
-        {
-            "visual": "⬜",
-            "id": "88c17843-a55e-4a20-8815-7e948ede753c"
-        },
-        {
-            "visual": "⬜",
-            "id": "b407011d-4aa8-47f4-a26b-dc3c15ee02c1"
-        },
-        {
-            "visual": "⬜",
-            "id": "eb49fb12-f4bc-4e31-a509-d73693a1cb99"
-        },
-        {
-            "visual": "⬜",
-            "id": "2eae2cc3-79a6-46c6-953e-d074f8ee17ab"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "9132f75b-8f81-4d20-b1d4-f308bea5e74a"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "39fa45ff-666b-4257-8242-87d69043acb2"
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
         }
-    ],
-    [
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "4255cda0-2db1-417f-bbdd-57404b15e584"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "62d03b8d-04a1-4432-b7a8-cd4e29479baf"
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
         },
         {
-            "visual": "⬜",
-            "id": "4afd70a9-9f40-4e9d-9931-a417111a64d7"
-        },
-        {
-            "visual": "⬜",
-            "id": "1e2210fe-5d39-4e90-9650-f071aca8fe6f"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
-                },
-                {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "5c496385-6c77-4b26-808d-5685f7424686"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
-                },
-                {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "38b01c8d-5d59-4d8b-bbbf-afd75614b67d"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
-                },
-                {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "8d046fb5-19e3-47c1-b576-326f505c996d"
-        },
-        {
-            "visual": "⬜",
-            "id": "1b52aee9-4b84-486d-a9cd-abc3af2fa248"
-        },
-        {
-            "visual": "⬜",
-            "id": "1f1d1c5f-48a8-4a3c-a81c-8ae42c40fe24"
-        },
-        {
-            "visual": "⬜",
-            "id": "842d3802-d9cb-46fb-a2dd-e5a949896ffa"
-        },
-        {
-            "visual": "⬜",
-            "id": "c43aa829-2d99-40d7-acd1-e06c49d38fb8"
-        },
-        {
-            "visual": "⬜",
-            "id": "7322957a-0ec4-47ba-8c0f-dd0149eacbf7"
-        },
-        {
-            "visual": "⬜",
-            "id": "9fe2f10d-3857-43db-beaa-f7155d793147"
-        },
-        {
-            "visual": "⬜",
-            "id": "fe1ec2e7-8b51-4b3f-b8e2-2274618523e7"
-        },
-        {
-            "visual": "⬜",
-            "id": "7365a1a0-fe0c-4b96-985a-dcc6943e0311"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "5620a04b-8058-466d-ac22-41424d76b569"
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
         }
-    ],
-    [
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "cbbdea00-11e7-4bb8-97a6-109778698a34"
+    },
+    {
+      "visual": "⬜",
+      "id": "89007e93-46ee-4a27-b7fb-6323d7d37f02"
+    },
+    {
+      "visual": "⬜",
+      "id": "50cda87d-44f0-4e0a-af9f-b788910799ec"
+    },
+    {
+      "visual": "⬜",
+      "id": "bd1b5b16-c69b-4130-bb3e-c8f8c358b93f"
+    },
+    {
+      "visual": "⬜",
+      "id": "88c17843-a55e-4a20-8815-7e948ede753c"
+    },
+    {
+      "visual": "⬜",
+      "id": "b407011d-4aa8-47f4-a26b-dc3c15ee02c1"
+    },
+    {
+      "visual": "⬜",
+      "id": "eb49fb12-f4bc-4e31-a509-d73693a1cb99"
+    },
+    {
+      "visual": "⬜",
+      "id": "2eae2cc3-79a6-46c6-953e-d074f8ee17ab"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "9132f75b-8f81-4d20-b1d4-f308bea5e74a"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "39fa45ff-666b-4257-8242-87d69043acb2"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "62d03b8d-04a1-4432-b7a8-cd4e29479baf"
+    },
+    {
+      "visual": "⬜",
+      "id": "4afd70a9-9f40-4e9d-9931-a417111a64d7"
+    },
+    {
+      "visual": "⬜",
+      "id": "1e2210fe-5d39-4e90-9650-f071aca8fe6f"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "2b353b0d-9e7c-44f3-bf87-a4b83f4275ba"
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
         },
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "322b9e55-83ed-4673-b173-c34f09fc35ba"
-        },
-        {
-            "visual": "⬜",
-            "id": "02175689-3eb0-43da-be6f-ce110413fbde"
-        },
-        {
-            "visual": "⬜",
-            "id": "35c301bf-ff25-477d-9bc0-268f2f727e7d"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
-                },
-                {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "382633d5-df7d-4ab5-8166-58b4a22a2b7c"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
-                },
-                {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "eaf317a7-0062-4a94-8964-9a10201e914d"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
-                },
-                {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "37efef65-93ea-45e3-af2b-013c579123f8"
-        },
-        {
-            "visual": "⬜",
-            "id": "d3965851-8f41-4d36-95d9-bb839a6e0264"
-        },
-        {
-            "visual": "⬜",
-            "id": "2f76cc96-ea26-45bd-9389-eb5551f5ab9e"
-        },
-        {
-            "visual": "⬜",
-            "id": "f7a7fdc5-94a4-4120-af21-e27bcf8c84e6"
-        },
-        {
-            "visual": "⬜",
-            "id": "0ea54fff-4aee-4aa0-96e8-2b66430aa657"
-        },
-        {
-            "visual": "⬜",
-            "id": "aac7c55d-86eb-4131-a387-b6594c5ec995"
-        },
-        {
-            "visual": "⬜",
-            "id": "21396fc1-b214-4f4f-8f03-b8d0dd19d3fc"
-        },
-        {
-            "visual": "⬜",
-            "id": "ac247bcc-5633-4f6e-bb86-764998c3df70"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "efcd42a0-18c2-41f5-9ee8-0d1717c05c59"
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
         }
-    ],
-    [
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "5c496385-6c77-4b26-808d-5685f7424686"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "389019a6-1c9d-4fa5-991c-15e42f637f43"
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
         },
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "a3f1d3e5-15ac-4a72-90a6-115af360f791"
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "38b01c8d-5d59-4d8b-bbbf-afd75614b67d"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
+        {
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
         },
         {
-            "visual": "⬜",
-            "id": "76b00adf-8b6e-4274-a076-bbf156b4751d"
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "8d046fb5-19e3-47c1-b576-326f505c996d"
+    },
+    {
+      "visual": "⬜",
+      "id": "1b52aee9-4b84-486d-a9cd-abc3af2fa248"
+    },
+    {
+      "visual": "⬜",
+      "id": "1f1d1c5f-48a8-4a3c-a81c-8ae42c40fe24"
+    },
+    {
+      "visual": "⬜",
+      "id": "842d3802-d9cb-46fb-a2dd-e5a949896ffa"
+    },
+    {
+      "visual": "⬜",
+      "id": "c43aa829-2d99-40d7-acd1-e06c49d38fb8"
+    },
+    {
+      "visual": "⬜",
+      "id": "7322957a-0ec4-47ba-8c0f-dd0149eacbf7"
+    },
+    {
+      "visual": "⬜",
+      "id": "9fe2f10d-3857-43db-beaa-f7155d793147"
+    },
+    {
+      "visual": "⬜",
+      "id": "fe1ec2e7-8b51-4b3f-b8e2-2274618523e7"
+    },
+    {
+      "visual": "⬜",
+      "id": "7365a1a0-fe0c-4b96-985a-dcc6943e0311"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "5620a04b-8058-466d-ac22-41424d76b569"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "2b353b0d-9e7c-44f3-bf87-a4b83f4275ba"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "322b9e55-83ed-4673-b173-c34f09fc35ba"
+    },
+    {
+      "visual": "⬜",
+      "id": "02175689-3eb0-43da-be6f-ce110413fbde"
+    },
+    {
+      "visual": "⬜",
+      "id": "35c301bf-ff25-477d-9bc0-268f2f727e7d"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
+        {
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
         },
         {
-            "visual": "⬜",
-            "id": "7bc62e65-19fc-4fa5-b5ee-e59abfb9433d"
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "382633d5-df7d-4ab5-8166-58b4a22a2b7c"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
+        {
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
         },
         {
-            "description": "You are in the woods.",
-            "actions": [
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "eaf317a7-0062-4a94-8964-9a10201e914d"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
+        {
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "37efef65-93ea-45e3-af2b-013c579123f8"
+    },
+    {
+      "visual": "⬜",
+      "id": "d3965851-8f41-4d36-95d9-bb839a6e0264"
+    },
+    {
+      "visual": "⬜",
+      "id": "2f76cc96-ea26-45bd-9389-eb5551f5ab9e"
+    },
+    {
+      "visual": "⬜",
+      "id": "f7a7fdc5-94a4-4120-af21-e27bcf8c84e6"
+    },
+    {
+      "visual": "⬜",
+      "id": "0ea54fff-4aee-4aa0-96e8-2b66430aa657"
+    },
+    {
+      "visual": "⬜",
+      "id": "aac7c55d-86eb-4131-a387-b6594c5ec995"
+    },
+    {
+      "visual": "⬜",
+      "id": "21396fc1-b214-4f4f-8f03-b8d0dd19d3fc"
+    },
+    {
+      "visual": "⬜",
+      "id": "ac247bcc-5633-4f6e-bb86-764998c3df70"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "efcd42a0-18c2-41f5-9ee8-0d1717c05c59"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "389019a6-1c9d-4fa5-991c-15e42f637f43"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "a3f1d3e5-15ac-4a72-90a6-115af360f791"
+    },
+    {
+      "visual": "⬜",
+      "id": "76b00adf-8b6e-4274-a076-bbf156b4751d"
+    },
+    {
+      "visual": "👀",
+      "actions": [
+        {
+          "name": "talk",
+          "preconditions": [],
+          "results": [
+            {
+              "type": "dialogue",
+              "filename": "testDialogueII"
+            }
+          ]
+        }
+      ],
+      "id": "7bc62e65-19fc-4fa5-b5ee-e59abfb9433d"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
+        {
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "2c4c3412-fbfb-48cf-ae19-7b6769b25c19"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
+        {
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "327d3594-2f7d-41fc-a804-d66f7134dc00"
+    },
+    {
+      "description": "You are in the woods.",
+      "actions": [
+        {
+          "name": "collect sticks",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stick",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "chop wood",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "axe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "log",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "tileType": "Woods",
+      "visual": "🌲",
+      "id": "e79065cf-193d-4013-acc7-355c5b38c5d2"
+    },
+    {
+      "visual": "⬜",
+      "id": "3da051e9-a729-4b56-b996-010f38967973"
+    },
+    {
+      "visual": "⬜",
+      "id": "8acfb709-c453-4989-8a51-4315c33f052f"
+    },
+    {
+      "visual": "⬜",
+      "id": "ebef68b8-1fd0-4abd-9101-5269f75d6cd3"
+    },
+    {
+      "visual": "⬜",
+      "id": "bf62ce80-4f52-44bf-84a9-b2c22a394ad3"
+    },
+    {
+      "visual": "⬜",
+      "id": "461a5009-70f6-4fed-878c-a2a07b4877f7"
+    },
+    {
+      "visual": "⬜",
+      "id": "580edfdd-e5ed-4987-9ccf-b6e79328b7f3"
+    },
+    {
+      "visual": "⬜",
+      "id": "5b995a14-7a47-4a24-89b7-bb769963c7e7"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "acb1065d-be67-42c9-aa94-dee43f64593d"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "8d1ab2e6-fc1e-476d-9ae2-9d9d3b069255"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "be31839a-c522-49e5-b53e-e42ffe0a9b45"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "f5178517-8ba2-4830-aa8b-cd5b7efa707e"
+    },
+    {
+      "visual": "⬜",
+      "id": "f3844a36-82f6-4c70-96bb-383c30ef4ae2"
+    },
+    {
+      "visual": "⬜",
+      "id": "651729c1-2429-48c4-972f-d71926c9658c"
+    },
+    {
+      "visual": "⬜",
+      "id": "dafd6e72-9323-4272-b0ea-dfa0adf137ab"
+    },
+    {
+      "visual": "⬜",
+      "id": "aba10cd4-27c3-492d-9a31-88fb6528fe1f"
+    },
+    {
+      "visual": "⬜",
+      "id": "81a49cd3-4d44-49c4-9e41-3522dfd3922a"
+    },
+    {
+      "visual": "⬜",
+      "id": "90e4c025-8bfb-45bc-af81-07bb5739b902"
+    },
+    {
+      "visual": "⬜",
+      "id": "858b9fb3-635e-4490-8e29-3eba8ba020cb"
+    },
+    {
+      "visual": "⬜",
+      "id": "1d1f418b-aaf3-41c6-a1b4-408c26f695b6"
+    },
+    {
+      "visual": "⬜",
+      "id": "f4a4c249-f2fb-4f42-a24c-8c444d7567e0"
+    },
+    {
+      "visual": "⬜",
+      "id": "ec0500b6-9976-45b1-829b-15d814f2f779"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "11f02ac7-fb30-472a-ba94-3a9f2f713403"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "86b12264-d56d-4226-8009-c33e42f73fc2"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "12025d00-66d2-43c0-979b-0ef5bc7020f5"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "69786a86-ca74-4c79-8019-4948b6c81c68"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "7e9cbe4a-ba87-47bb-ac1d-73161b3a7e6a"
+    },
+    {
+      "visual": "⬜",
+      "id": "c04b3c4d-2afd-4dc2-a539-545764629302"
+    },
+    {
+      "visual": "⬜",
+      "id": "ccf1e005-0b21-432d-9186-564c1bb40f42"
+    },
+    {
+      "visual": "⬜",
+      "id": "bb8ae603-de82-486d-a794-4da43436627f"
+    },
+    {
+      "visual": "⬜",
+      "id": "9e13a1a9-e3a0-4395-bcf3-e4e2189a1279"
+    },
+    {
+      "visual": "⬜",
+      "id": "81990180-435d-4e6f-a4b5-de88412e6cc2"
+    },
+    {
+      "visual": "⬜",
+      "id": "5d73acdb-3ba6-4a43-9ea8-89097ed1821f"
+    },
+    {
+      "visual": "⬜",
+      "id": "35fb0d27-f278-468e-88e1-7ca3faa818eb"
+    },
+    {
+      "visual": "⬜",
+      "id": "1a1a24f4-20aa-4f68-b4a7-9dcd1f2602cb"
+    },
+    {
+      "visual": "⬜",
+      "id": "812abc72-3393-4bd9-a9cb-e6bf09e102ec"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "7a8ad109-4b7d-4537-bc91-1f47047d2101"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "b7ae1bbf-4bfc-4210-8e52-d5163ddc34c1"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "56711022-611c-431f-ae34-0f80663a9515"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "423f471c-74b3-41f0-86e9-f94e41e3b5f2"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "1e595e45-4ed1-43d3-81df-d1bfa6644e6b"
+    },
+    {
+      "visual": "⬜",
+      "id": "77191f47-af4c-44c6-a673-90efbf1dc128"
+    },
+    {
+      "visual": "⬜",
+      "id": "f5e1cd7d-05ba-41d8-94d3-50376dd5ae72"
+    },
+    {
+      "visual": "⬜",
+      "id": "7f799bed-d875-4d60-acbb-78543fd53872"
+    },
+    {
+      "visual": "⬜",
+      "id": "35392cc6-5ff1-4cdc-b55e-04125b1742ed"
+    },
+    {
+      "visual": "⬜",
+      "id": "4eba647d-5b36-4e00-bad0-cf49232d98fb"
+    },
+    {
+      "visual": "⬜",
+      "id": "d34eaae2-cdc9-4205-afd2-c4243c286523"
+    },
+    {
+      "visual": "⬜",
+      "id": "59fa8389-660f-4386-a37d-bf18ded03259"
+    },
+    {
+      "visual": "⬜",
+      "id": "d048add1-aba2-41c3-a219-4725106e9af7"
+    },
+    {
+      "visual": "⬜",
+      "id": "a937db72-e5fe-43ea-82ba-427613955bbd"
+    },
+    {
+      "visual": "⬜",
+      "id": "ba22d830-0d02-4a50-80f0-3c8be2ded65f"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "dbfd8f53-0e8d-4d66-b825-f434c8c02a42"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "fd89340f-c3cf-4b3d-8af0-def79c6715e2"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "942cf8c8-4443-480b-8421-78475742384a"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "1480e805-9f2a-4864-b317-d56f673e1887"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "be750317-f598-4172-858d-14fbd3d8ef92"
+    },
+    {
+      "visual": "⬜",
+      "id": "f5c9e5ea-1701-41d5-ac58-d9a582e9ea88"
+    },
+    {
+      "visual": "⬜",
+      "id": "66b86ef7-3afa-4b7c-923b-944b9a579527"
+    },
+    {
+      "visual": "⬜",
+      "id": "19c7a09b-b974-43b5-a2ba-2ac498a38032"
+    },
+    {
+      "visual": "⬜",
+      "id": "8fd46a6c-7460-4dfa-a804-7c324bdff727"
+    },
+    {
+      "visual": "⬜",
+      "id": "1eafadf5-31e5-4a22-b631-907f24e191d8"
+    },
+    {
+      "actions": [],
+      "tileType": "Camp",
+      "visual": "⛺",
+      "id": "017129d2-f19e-403e-b0fd-ebc64cfc6df3"
+    },
+    {
+      "visual": "⬜",
+      "id": "030fd511-5d2f-4974-9460-85cc9205a53a"
+    },
+    {
+      "visual": "⬜",
+      "id": "856aa4a2-cef5-42c5-b262-df326eb61960"
+    },
+    {
+      "visual": "⬜",
+      "id": "439cac54-2426-4bcd-847e-8e861bc1c50f"
+    },
+    {
+      "visual": "⬜",
+      "id": "76d46328-17d2-4bb6-89d0-46042a4d585b"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "1e14a167-0dd2-4720-8d53-dfbdf4057af8"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "565e4ba0-a108-42fe-943d-fe19d2cda25c"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "ceba377a-9641-4c68-b9a9-bb9321faa1f7"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "e2872c9a-4f27-4cc5-8545-8fb3682fb509"
+    },
+    {
+      "visual": "⬜",
+      "id": "0b0d4044-28f0-4df4-a206-4868ea0868bf"
+    },
+    {
+      "visual": "⬜",
+      "id": "71b6d050-13ff-43d1-b39b-f4c99887cfff"
+    },
+    {
+      "visual": "⬜",
+      "id": "8141b671-0879-4288-a83d-fa5477850dff"
+    },
+    {
+      "visual": "⬜",
+      "id": "29914d0c-a1e3-4ddb-b63b-65c6128cdaa5"
+    },
+    {
+      "visual": "⬜",
+      "id": "154f4967-acc5-4034-8b5d-ea6abad9a38a"
+    },
+    {
+      "visual": "⬜",
+      "id": "f64df6d6-9190-4276-bbca-9b626878c67d"
+    },
+    {
+      "visual": "⬜",
+      "id": "80817706-167c-4baa-88c6-e27d2bd039ad"
+    },
+    {
+      "visual": "⬜",
+      "id": "441e91da-4619-4953-b39a-0879862964ba"
+    },
+    {
+      "visual": "⬜",
+      "id": "01f20746-0837-4194-884c-76d6dc732dfb"
+    },
+    {
+      "visual": "⬜",
+      "id": "fec98982-b90b-4fed-b913-57f1cc6e2325"
+    },
+    {
+      "visual": "⬜",
+      "id": "e9c52ba5-e0b4-4117-8415-29fd0a80af83"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "1b1ee34d-6dca-4cc5-b035-01e7aa8db52e"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "f622a72a-e177-4f92-9ae8-3fe6f282c584"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "ec8a5c20-339f-4fa5-9dd7-b1075422471c"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "08512573-a71d-4044-a91c-2e7704a566fc"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "fc506d9d-ca14-4dc5-a5e2-40e9bf995fa2"
+    },
+    {
+      "visual": "⬜",
+      "id": "1f3c6cb8-2437-443d-a6a3-ef6b2ba407f5"
+    },
+    {
+      "visual": "⬜",
+      "id": "eb86ff3f-46a8-4a82-a597-61aab7ea6d03"
+    },
+    {
+      "visual": "⬜",
+      "id": "dd096d13-77b6-4f52-87d4-780ec2d81793"
+    },
+    {
+      "visual": "⬜",
+      "id": "b8cb0c1c-9e23-482b-963d-b92cbcddf867"
+    },
+    {
+      "visual": "⬜",
+      "id": "2111e0a4-675a-4ed0-9cc1-2118d6d08422"
+    },
+    {
+      "visual": "⬜",
+      "id": "631fc8a7-78c2-4c93-bbf0-6935a868a789"
+    },
+    {
+      "visual": "⬜",
+      "id": "83870935-4904-46b7-8020-4bf9e821f668"
+    },
+    {
+      "description": "You are at a quarry.",
+      "actions": [
+        {
+          "name": "collect stones",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stone",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "name": "mine",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "pickaxe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "random-item",
+              "possibleDrops": [
                 {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
+                  "itemName": "stone",
+                  "quantity": 4,
+                  "probability": 0.5
                 },
                 {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "2c4c3412-fbfb-48cf-ae19-7b6769b25c19"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
+                  "itemName": "iron",
+                  "quantity": 4,
+                  "probability": 0.3
                 },
                 {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "327d3594-2f7d-41fc-a804-d66f7134dc00"
-        },
-        {
-            "description": "You are in the woods.",
-            "actions": [
-                {
-                    "name": "collect sticks",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stick",
-                            "quantity": 1
-                        }
-                    ]
+                  "itemName": "gold",
+                  "quantity": 4,
+                  "probability": 0.15
                 },
                 {
-                    "name": "chop wood",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "axe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "log",
-                            "quantity": 4
-                        }
-                    ]
+                  "itemName": "diamond",
+                  "quantity": 4,
+                  "probability": 0.05
                 }
-            ],
-            "tileType": "Woods",
-            "visual": "🌲",
-            "id": "e79065cf-193d-4013-acc7-355c5b38c5d2"
-        },
-        {
-            "visual": "⬜",
-            "id": "3da051e9-a729-4b56-b996-010f38967973"
-        },
-        {
-            "visual": "⬜",
-            "id": "8acfb709-c453-4989-8a51-4315c33f052f"
-        },
-        {
-            "visual": "⬜",
-            "id": "ebef68b8-1fd0-4abd-9101-5269f75d6cd3"
-        },
-        {
-            "visual": "⬜",
-            "id": "bf62ce80-4f52-44bf-84a9-b2c22a394ad3"
-        },
-        {
-            "visual": "⬜",
-            "id": "461a5009-70f6-4fed-878c-a2a07b4877f7"
-        },
-        {
-            "visual": "⬜",
-            "id": "580edfdd-e5ed-4987-9ccf-b6e79328b7f3"
-        },
-        {
-            "visual": "⬜",
-            "id": "5b995a14-7a47-4a24-89b7-bb769963c7e7"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "acb1065d-be67-42c9-aa94-dee43f64593d"
+              ]
+            }
+          ]
         }
-    ],
-    [
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "8d1ab2e6-fc1e-476d-9ae2-9d9d3b069255"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "be31839a-c522-49e5-b53e-e42ffe0a9b45"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "f5178517-8ba2-4830-aa8b-cd5b7efa707e"
-        },
-        {
-            "visual": "⬜",
-            "id": "f3844a36-82f6-4c70-96bb-383c30ef4ae2"
-        },
-        {
-            "visual": "⬜",
-            "id": "651729c1-2429-48c4-972f-d71926c9658c"
-        },
-        {
-            "visual": "⬜",
-            "id": "dafd6e72-9323-4272-b0ea-dfa0adf137ab"
-        },
-        {
-            "visual": "⬜",
-            "id": "aba10cd4-27c3-492d-9a31-88fb6528fe1f"
-        },
-        {
-            "visual": "⬜",
-            "id": "81a49cd3-4d44-49c4-9e41-3522dfd3922a"
-        },
-        {
-            "visual": "⬜",
-            "id": "90e4c025-8bfb-45bc-af81-07bb5739b902"
-        },
-        {
-            "visual": "⬜",
-            "id": "858b9fb3-635e-4490-8e29-3eba8ba020cb"
-        },
-        {
-            "visual": "⬜",
-            "id": "1d1f418b-aaf3-41c6-a1b4-408c26f695b6"
-        },
-        {
-            "visual": "⬜",
-            "id": "f4a4c249-f2fb-4f42-a24c-8c444d7567e0"
-        },
-        {
-            "visual": "⬜",
-            "id": "ec0500b6-9976-45b1-829b-15d814f2f779"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "11f02ac7-fb30-472a-ba94-3a9f2f713403"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "86b12264-d56d-4226-8009-c33e42f73fc2"
-        }
-    ],
-    [
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "12025d00-66d2-43c0-979b-0ef5bc7020f5"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "69786a86-ca74-4c79-8019-4948b6c81c68"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "7e9cbe4a-ba87-47bb-ac1d-73161b3a7e6a"
-        },
-        {
-            "visual": "⬜",
-            "id": "c04b3c4d-2afd-4dc2-a539-545764629302"
-        },
-        {
-            "visual": "⬜",
-            "id": "ccf1e005-0b21-432d-9186-564c1bb40f42"
-        },
-        {
-            "visual": "⬜",
-            "id": "bb8ae603-de82-486d-a794-4da43436627f"
-        },
-        {
-            "visual": "⬜",
-            "id": "9e13a1a9-e3a0-4395-bcf3-e4e2189a1279"
-        },
-        {
-            "visual": "⬜",
-            "id": "81990180-435d-4e6f-a4b5-de88412e6cc2"
-        },
-        {
-            "visual": "⬜",
-            "id": "5d73acdb-3ba6-4a43-9ea8-89097ed1821f"
-        },
-        {
-            "visual": "⬜",
-            "id": "35fb0d27-f278-468e-88e1-7ca3faa818eb"
-        },
-        {
-            "visual": "⬜",
-            "id": "1a1a24f4-20aa-4f68-b4a7-9dcd1f2602cb"
-        },
-        {
-            "visual": "⬜",
-            "id": "812abc72-3393-4bd9-a9cb-e6bf09e102ec"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "7a8ad109-4b7d-4537-bc91-1f47047d2101"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "b7ae1bbf-4bfc-4210-8e52-d5163ddc34c1"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "56711022-611c-431f-ae34-0f80663a9515"
-        }
-    ],
-    [
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "423f471c-74b3-41f0-86e9-f94e41e3b5f2"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "1e595e45-4ed1-43d3-81df-d1bfa6644e6b"
-        },
-        {
-            "visual": "⬜",
-            "id": "77191f47-af4c-44c6-a673-90efbf1dc128"
-        },
-        {
-            "visual": "⬜",
-            "id": "f5e1cd7d-05ba-41d8-94d3-50376dd5ae72"
-        },
-        {
-            "visual": "⬜",
-            "id": "7f799bed-d875-4d60-acbb-78543fd53872"
-        },
-        {
-            "visual": "⬜",
-            "id": "35392cc6-5ff1-4cdc-b55e-04125b1742ed"
-        },
-        {
-            "visual": "⬜",
-            "id": "4eba647d-5b36-4e00-bad0-cf49232d98fb"
-        },
-        {
-            "visual": "⬜",
-            "id": "d34eaae2-cdc9-4205-afd2-c4243c286523"
-        },
-        {
-            "visual": "⬜",
-            "id": "59fa8389-660f-4386-a37d-bf18ded03259"
-        },
-        {
-            "visual": "⬜",
-            "id": "d048add1-aba2-41c3-a219-4725106e9af7"
-        },
-        {
-            "visual": "⬜",
-            "id": "a937db72-e5fe-43ea-82ba-427613955bbd"
-        },
-        {
-            "visual": "⬜",
-            "id": "ba22d830-0d02-4a50-80f0-3c8be2ded65f"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "dbfd8f53-0e8d-4d66-b825-f434c8c02a42"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "fd89340f-c3cf-4b3d-8af0-def79c6715e2"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "942cf8c8-4443-480b-8421-78475742384a"
-        }
-    ],
-    [
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "1480e805-9f2a-4864-b317-d56f673e1887"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "be750317-f598-4172-858d-14fbd3d8ef92"
-        },
-        {
-            "visual": "⬜",
-            "id": "f5c9e5ea-1701-41d5-ac58-d9a582e9ea88"
-        },
-        {
-            "visual": "⬜",
-            "id": "66b86ef7-3afa-4b7c-923b-944b9a579527"
-        },
-        {
-            "visual": "⬜",
-            "id": "19c7a09b-b974-43b5-a2ba-2ac498a38032"
-        },
-        {
-            "visual": "⬜",
-            "id": "8fd46a6c-7460-4dfa-a804-7c324bdff727"
-        },
-        {
-            "visual": "⬜",
-            "id": "1eafadf5-31e5-4a22-b631-907f24e191d8"
-        },
-        {
-            "actions": [],
-            "tileType": "Camp",
-            "visual": "⛺",
-            "id": "017129d2-f19e-403e-b0fd-ebc64cfc6df3"
-        },
-        {
-            "visual": "⬜",
-            "id": "030fd511-5d2f-4974-9460-85cc9205a53a"
-        },
-        {
-            "visual": "⬜",
-            "id": "856aa4a2-cef5-42c5-b262-df326eb61960"
-        },
-        {
-            "visual": "⬜",
-            "id": "439cac54-2426-4bcd-847e-8e861bc1c50f"
-        },
-        {
-            "visual": "⬜",
-            "id": "76d46328-17d2-4bb6-89d0-46042a4d585b"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "1e14a167-0dd2-4720-8d53-dfbdf4057af8"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "565e4ba0-a108-42fe-943d-fe19d2cda25c"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "ceba377a-9641-4c68-b9a9-bb9321faa1f7"
-        }
-    ],
-    [
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "e2872c9a-4f27-4cc5-8545-8fb3682fb509"
-        },
-        {
-            "visual": "⬜",
-            "id": "0b0d4044-28f0-4df4-a206-4868ea0868bf"
-        },
-        {
-            "visual": "⬜",
-            "id": "71b6d050-13ff-43d1-b39b-f4c99887cfff"
-        },
-        {
-            "visual": "⬜",
-            "id": "8141b671-0879-4288-a83d-fa5477850dff"
-        },
-        {
-            "visual": "⬜",
-            "id": "29914d0c-a1e3-4ddb-b63b-65c6128cdaa5"
-        },
-        {
-            "visual": "⬜",
-            "id": "154f4967-acc5-4034-8b5d-ea6abad9a38a"
-        },
-        {
-            "visual": "⬜",
-            "id": "f64df6d6-9190-4276-bbca-9b626878c67d"
-        },
-        {
-            "visual": "⬜",
-            "id": "80817706-167c-4baa-88c6-e27d2bd039ad"
-        },
-        {
-            "visual": "⬜",
-            "id": "441e91da-4619-4953-b39a-0879862964ba"
-        },
-        {
-            "visual": "⬜",
-            "id": "01f20746-0837-4194-884c-76d6dc732dfb"
-        },
-        {
-            "visual": "⬜",
-            "id": "fec98982-b90b-4fed-b913-57f1cc6e2325"
-        },
-        {
-            "visual": "⬜",
-            "id": "e9c52ba5-e0b4-4117-8415-29fd0a80af83"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "1b1ee34d-6dca-4cc5-b035-01e7aa8db52e"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "f622a72a-e177-4f92-9ae8-3fe6f282c584"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "ec8a5c20-339f-4fa5-9dd7-b1075422471c"
-        }
-    ],
-    [
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "08512573-a71d-4044-a91c-2e7704a566fc"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "fc506d9d-ca14-4dc5-a5e2-40e9bf995fa2"
-        },
-        {
-            "visual": "⬜",
-            "id": "1f3c6cb8-2437-443d-a6a3-ef6b2ba407f5"
-        },
-        {
-            "visual": "⬜",
-            "id": "eb86ff3f-46a8-4a82-a597-61aab7ea6d03"
-        },
-        {
-            "visual": "⬜",
-            "id": "dd096d13-77b6-4f52-87d4-780ec2d81793"
-        },
-        {
-            "visual": "⬜",
-            "id": "b8cb0c1c-9e23-482b-963d-b92cbcddf867"
-        },
-        {
-            "visual": "⬜",
-            "id": "2111e0a4-675a-4ed0-9cc1-2118d6d08422"
-        },
-        {
-            "visual": "⬜",
-            "id": "631fc8a7-78c2-4c93-bbf0-6935a868a789"
-        },
-        {
-            "visual": "⬜",
-            "id": "83870935-4904-46b7-8020-4bf9e821f668"
-        },
-        {
-            "description": "You are at a quarry.",
-            "actions": [
+      ],
+      "tileType": "Mine",
+      "visual": "🪨",
+      "id": "08115051-5419-4c43-a18c-a9bfbc9fbb85"
+    },
+    {
+      "description": "You are at a quarry.",
+      "actions": [
+        {
+          "name": "collect stones",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stone",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "name": "mine",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "pickaxe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "random-item",
+              "possibleDrops": [
                 {
-                    "name": "collect stones",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stone",
-                            "quantity": "1"
-                        }
-                    ]
+                  "itemName": "stone",
+                  "quantity": 4,
+                  "probability": 0.5
                 },
                 {
-                    "name": "mine",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "pickaxe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "random-item",
-                            "possibleDrops": [
-                                {
-                                    "itemName": "stone",
-                                    "quantity": 4,
-                                    "probability": 0.5
-                                },
-                                {
-                                    "itemName": "iron",
-                                    "quantity": 4,
-                                    "probability": 0.3
-                                },
-                                {
-                                    "itemName": "gold",
-                                    "quantity": 4,
-                                    "probability": 0.15
-                                },
-                                {
-                                    "itemName": "diamond",
-                                    "quantity": 4,
-                                    "probability": 0.05
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Mine",
-            "visual": "🪨",
-            "id": "08115051-5419-4c43-a18c-a9bfbc9fbb85"
-        },
-        {
-            "description": "You are at a quarry.",
-            "actions": [
-                {
-                    "name": "collect stones",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stone",
-                            "quantity": "1"
-                        }
-                    ]
+                  "itemName": "iron",
+                  "quantity": 4,
+                  "probability": 0.3
                 },
                 {
-                    "name": "mine",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "pickaxe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "random-item",
-                            "possibleDrops": [
-                                {
-                                    "itemName": "stone",
-                                    "quantity": 4,
-                                    "probability": 0.5
-                                },
-                                {
-                                    "itemName": "iron",
-                                    "quantity": 4,
-                                    "probability": 0.3
-                                },
-                                {
-                                    "itemName": "gold",
-                                    "quantity": 4,
-                                    "probability": 0.15
-                                },
-                                {
-                                    "itemName": "diamond",
-                                    "quantity": 4,
-                                    "probability": 0.05
-                                }
-                            ]
-                        }
-                    ]
+                  "itemName": "gold",
+                  "quantity": 4,
+                  "probability": 0.15
+                },
+                {
+                  "itemName": "diamond",
+                  "quantity": 4,
+                  "probability": 0.05
                 }
-            ],
-            "tileType": "Mine",
-            "visual": "🪨",
-            "id": "9923683d-58b0-4275-b7b0-1a4594d17a37"
-        },
-        {
-            "visual": "⬜",
-            "id": "9fbcca32-332d-4930-8d07-bde362110145"
-        },
-        {
-            "visual": "⬜",
-            "id": "9443c68b-e930-4edb-a1db-ca64f384ebf2"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "eab9b6cb-45c1-466e-aadf-4e86e341332d"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "c8296345-b7a8-46c1-bf48-bd9230e4f778"
+              ]
+            }
+          ]
         }
-    ],
-    [
+      ],
+      "tileType": "Mine",
+      "visual": "🪨",
+      "id": "9923683d-58b0-4275-b7b0-1a4594d17a37"
+    },
+    {
+      "visual": "⬜",
+      "id": "9fbcca32-332d-4930-8d07-bde362110145"
+    },
+    {
+      "visual": "⬜",
+      "id": "9443c68b-e930-4edb-a1db-ca64f384ebf2"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "eab9b6cb-45c1-466e-aadf-4e86e341332d"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "c8296345-b7a8-46c1-bf48-bd9230e4f778"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "f69bd772-9b46-4fd6-bc0e-ad6750613040"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "bfed83e6-a5d8-43c2-8ab3-7f0cdc5e314a"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "9b01a42d-4451-48c0-a8d7-81f6e30a3263"
+    },
+    {
+      "visual": "⬜",
+      "id": "2b90691c-8473-4f0b-a8c6-7f2edd402274"
+    },
+    {
+      "visual": "⬜",
+      "id": "0421670e-2310-4c20-86e9-005b75d883d8"
+    },
+    {
+      "visual": "⬜",
+      "id": "38342fcf-02c1-4157-95ef-4fe63270c2da"
+    },
+    {
+      "visual": "⬜",
+      "id": "d7e56260-c0f6-43ef-9455-e511bac29123"
+    },
+    {
+      "description": "You are at a quarry.",
+      "actions": [
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "f69bd772-9b46-4fd6-bc0e-ad6750613040"
+          "name": "collect stones",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stone",
+              "quantity": "1"
+            }
+          ]
         },
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "bfed83e6-a5d8-43c2-8ab3-7f0cdc5e314a"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "9b01a42d-4451-48c0-a8d7-81f6e30a3263"
-        },
-        {
-            "visual": "⬜",
-            "id": "2b90691c-8473-4f0b-a8c6-7f2edd402274"
-        },
-        {
-            "visual": "⬜",
-            "id": "0421670e-2310-4c20-86e9-005b75d883d8"
-        },
-        {
-            "visual": "⬜",
-            "id": "38342fcf-02c1-4157-95ef-4fe63270c2da"
-        },
-        {
-            "visual": "⬜",
-            "id": "d7e56260-c0f6-43ef-9455-e511bac29123"
-        },
-        {
-            "description": "You are at a quarry.",
-            "actions": [
+          "name": "mine",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "pickaxe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "random-item",
+              "possibleDrops": [
                 {
-                    "name": "collect stones",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stone",
-                            "quantity": "1"
-                        }
-                    ]
+                  "itemName": "stone",
+                  "quantity": 4,
+                  "probability": 0.5
                 },
                 {
-                    "name": "mine",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "pickaxe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "random-item",
-                            "possibleDrops": [
-                                {
-                                    "itemName": "stone",
-                                    "quantity": 4,
-                                    "probability": 0.5
-                                },
-                                {
-                                    "itemName": "iron",
-                                    "quantity": 4,
-                                    "probability": 0.3
-                                },
-                                {
-                                    "itemName": "gold",
-                                    "quantity": 4,
-                                    "probability": 0.15
-                                },
-                                {
-                                    "itemName": "diamond",
-                                    "quantity": 4,
-                                    "probability": 0.05
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Mine",
-            "visual": "🪨",
-            "id": "b17e51d1-ed84-403c-8f15-8edaf87b4285"
-        },
-        {
-            "description": "You are at a quarry.",
-            "actions": [
-                {
-                    "name": "collect stones",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stone",
-                            "quantity": "1"
-                        }
-                    ]
+                  "itemName": "iron",
+                  "quantity": 4,
+                  "probability": 0.3
                 },
                 {
-                    "name": "mine",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "pickaxe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "random-item",
-                            "possibleDrops": [
-                                {
-                                    "itemName": "stone",
-                                    "quantity": 4,
-                                    "probability": 0.5
-                                },
-                                {
-                                    "itemName": "iron",
-                                    "quantity": 4,
-                                    "probability": 0.3
-                                },
-                                {
-                                    "itemName": "gold",
-                                    "quantity": 4,
-                                    "probability": 0.15
-                                },
-                                {
-                                    "itemName": "diamond",
-                                    "quantity": 4,
-                                    "probability": 0.05
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Mine",
-            "visual": "🪨",
-            "id": "9ae99be4-64df-4ab4-b254-72539e4d69d4"
-        },
-        {
-            "description": "You are at a quarry.",
-            "actions": [
-                {
-                    "name": "collect stones",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stone",
-                            "quantity": "1"
-                        }
-                    ]
+                  "itemName": "gold",
+                  "quantity": 4,
+                  "probability": 0.15
                 },
                 {
-                    "name": "mine",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "pickaxe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "random-item",
-                            "possibleDrops": [
-                                {
-                                    "itemName": "stone",
-                                    "quantity": 4,
-                                    "probability": 0.5
-                                },
-                                {
-                                    "itemName": "iron",
-                                    "quantity": 4,
-                                    "probability": 0.3
-                                },
-                                {
-                                    "itemName": "gold",
-                                    "quantity": 4,
-                                    "probability": 0.15
-                                },
-                                {
-                                    "itemName": "diamond",
-                                    "quantity": 4,
-                                    "probability": 0.05
-                                }
-                            ]
-                        }
-                    ]
+                  "itemName": "diamond",
+                  "quantity": 4,
+                  "probability": 0.05
                 }
-            ],
-            "tileType": "Mine",
-            "visual": "🪨",
-            "id": "df850b5e-deb5-4497-8e3e-e171f6a0accc"
-        },
-        {
-            "description": "You are at a quarry.",
-            "actions": [
-                {
-                    "name": "collect stones",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stone",
-                            "quantity": "1"
-                        }
-                    ]
-                },
-                {
-                    "name": "mine",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "pickaxe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "random-item",
-                            "possibleDrops": [
-                                {
-                                    "itemName": "stone",
-                                    "quantity": 4,
-                                    "probability": 0.5
-                                },
-                                {
-                                    "itemName": "iron",
-                                    "quantity": 4,
-                                    "probability": 0.3
-                                },
-                                {
-                                    "itemName": "gold",
-                                    "quantity": 4,
-                                    "probability": 0.15
-                                },
-                                {
-                                    "itemName": "diamond",
-                                    "quantity": 4,
-                                    "probability": 0.05
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Mine",
-            "visual": "🪨",
-            "id": "e8faa69b-531b-438a-a7a5-f63d15fc2163"
-        },
-        {
-            "description": "You are at a quarry.",
-            "actions": [
-                {
-                    "name": "collect stones",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stone",
-                            "quantity": "1"
-                        }
-                    ]
-                },
-                {
-                    "name": "mine",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "pickaxe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "random-item",
-                            "possibleDrops": [
-                                {
-                                    "itemName": "stone",
-                                    "quantity": 4,
-                                    "probability": 0.5
-                                },
-                                {
-                                    "itemName": "iron",
-                                    "quantity": 4,
-                                    "probability": 0.3
-                                },
-                                {
-                                    "itemName": "gold",
-                                    "quantity": 4,
-                                    "probability": 0.15
-                                },
-                                {
-                                    "itemName": "diamond",
-                                    "quantity": 4,
-                                    "probability": 0.05
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "tileType": "Mine",
-            "visual": "🪨",
-            "id": "2193b3fe-3b65-4300-8ca5-bdb5f3b139cb"
-        },
-        {
-            "visual": "⬜",
-            "id": "83e948e5-d949-4540-b06c-526dd782eec2"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "52645cca-2cb6-435d-987b-39c82ab14cf5"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "52d2fda4-ef21-4dba-b248-660c4a366498"
+              ]
+            }
+          ]
         }
-    ],
-    [
+      ],
+      "tileType": "Mine",
+      "visual": "🪨",
+      "id": "b17e51d1-ed84-403c-8f15-8edaf87b4285"
+    },
+    {
+      "description": "You are at a quarry.",
+      "actions": [
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "c1873ba0-246c-4739-adc7-12967c5c2d95"
+          "name": "collect stones",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stone",
+              "quantity": "1"
+            }
+          ]
         },
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "eee2c641-9841-4f68-a801-1916fe57f7c4"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "e5ea846c-cc91-4082-99ea-da94864ce51b"
-        },
-        {
-            "visual": "⬜",
-            "id": "9848a80c-a50c-4c05-8afc-0fdab5c158de"
-        },
-        {
-            "visual": "⬜",
-            "id": "71b39aa3-4789-442d-b3eb-8f1ae436800d"
-        },
-        {
-            "visual": "⬜",
-            "id": "a9e8612a-1424-4afa-9cf7-f2a1c083b6d6"
-        },
-        {
-            "visual": "⬜",
-            "id": "c522c814-c6d6-4c88-9b1b-8216ee06680b"
-        },
-        {
-            "visual": "⬜",
-            "id": "d376d215-29d4-4c03-9c84-c10ed33497ae"
-        },
-        {
-            "visual": "⬜",
-            "id": "58f4e080-e238-4b1b-bded-a42d047cbae5"
-        },
-        {
-            "visual": "⬜",
-            "id": "9fec89e1-75db-40d3-bbe9-8f1e9b600c3f"
-        },
-        {
-            "description": "You are at a quarry.",
-            "actions": [
+          "name": "mine",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "pickaxe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "random-item",
+              "possibleDrops": [
                 {
-                    "name": "collect stones",
-                    "cooldown": 2,
-                    "preconditions": [],
-                    "results": [
-                        {
-                            "type": "item",
-                            "itemName": "stone",
-                            "quantity": "1"
-                        }
-                    ]
+                  "itemName": "stone",
+                  "quantity": 4,
+                  "probability": 0.5
                 },
                 {
-                    "name": "mine",
-                    "cooldown": 5,
-                    "preconditions": [
-                        {
-                            "type": "item",
-                            "itemType": "pickaxe",
-                            "itemWear": 1
-                        }
-                    ],
-                    "results": [
-                        {
-                            "type": "random-item",
-                            "possibleDrops": [
-                                {
-                                    "itemName": "stone",
-                                    "quantity": 4,
-                                    "probability": 0.5
-                                },
-                                {
-                                    "itemName": "iron",
-                                    "quantity": 4,
-                                    "probability": 0.3
-                                },
-                                {
-                                    "itemName": "gold",
-                                    "quantity": 4,
-                                    "probability": 0.15
-                                },
-                                {
-                                    "itemName": "diamond",
-                                    "quantity": 4,
-                                    "probability": 0.05
-                                }
-                            ]
-                        }
-                    ]
+                  "itemName": "iron",
+                  "quantity": 4,
+                  "probability": 0.3
+                },
+                {
+                  "itemName": "gold",
+                  "quantity": 4,
+                  "probability": 0.15
+                },
+                {
+                  "itemName": "diamond",
+                  "quantity": 4,
+                  "probability": 0.05
                 }
-            ],
-            "tileType": "Mine",
-            "visual": "🪨",
-            "id": "f447df8d-2b18-4d02-9d2c-ed74f1e30df2"
-        },
-        {
-            "visual": "⬜",
-            "id": "32bda534-f77d-450f-bb46-1ca7f9514859"
-        },
-        {
-            "visual": "⬜",
-            "id": "c8d62553-e419-4d93-a41a-6ae66a0efa0a"
-        },
-        {
-            "visual": "⬜",
-            "id": "44106e8e-6312-44d0-b728-bad36f0ef424"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "f3712114-b22c-4dfa-8891-cc1a8dd2203d"
+              ]
+            }
+          ]
         }
-    ],
-    [
+      ],
+      "tileType": "Mine",
+      "visual": "🪨",
+      "id": "9ae99be4-64df-4ab4-b254-72539e4d69d4"
+    },
+    {
+      "description": "You are at a quarry.",
+      "actions": [
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "f153272f-1144-45f9-89f1-279ba83ca24e"
+          "name": "collect stones",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stone",
+              "quantity": "1"
+            }
+          ]
         },
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "f43b43af-7aa9-4231-9887-5c38c844668e"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "a4774a01-9fd8-4279-8021-85c17745e7e8"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "02296acf-c266-468b-b1d2-cdc2b81fbed0"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "ec57974e-bf3b-407d-84f0-038edf82f7c4"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "b1a9ebb6-3c22-48ec-9046-a53e9addb638"
-        },
-        {
-            "visual": "⬜",
-            "id": "e84fe9aa-2626-4dde-8d99-8199d38ccf28"
-        },
-        {
-            "visual": "⬜",
-            "id": "6b4a9d6b-fa39-4d10-b643-69965309ea3c"
-        },
-        {
-            "visual": "⬜",
-            "id": "990cf446-062a-466f-a204-168500e2a904"
-        },
-        {
-            "visual": "⬜",
-            "id": "83146ed5-9bf7-414d-84e1-1f50068324d2"
-        },
-        {
-            "visual": "⬜",
-            "id": "06a164c7-cdd2-4621-b9af-2b45ac61f4c2"
-        },
-        {
-            "visual": "⬜",
-            "id": "baaa8337-ffe8-480d-a81c-f9c7926b5a64"
-        },
-        {
-            "visual": "⬜",
-            "id": "ecb3b435-292d-45c1-9242-1d07750b4523"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "f82e65de-e179-42fc-8f42-adec81a05f26"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "8609b0a5-917f-4819-bbc0-fd16817ec19e"
+          "name": "mine",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "pickaxe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "random-item",
+              "possibleDrops": [
+                {
+                  "itemName": "stone",
+                  "quantity": 4,
+                  "probability": 0.5
+                },
+                {
+                  "itemName": "iron",
+                  "quantity": 4,
+                  "probability": 0.3
+                },
+                {
+                  "itemName": "gold",
+                  "quantity": 4,
+                  "probability": 0.15
+                },
+                {
+                  "itemName": "diamond",
+                  "quantity": 4,
+                  "probability": 0.05
+                }
+              ]
+            }
+          ]
         }
-    ],
-    [
+      ],
+      "tileType": "Mine",
+      "visual": "🪨",
+      "id": "df850b5e-deb5-4497-8e3e-e171f6a0accc"
+    },
+    {
+      "description": "You are at a quarry.",
+      "actions": [
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "15ac0e38-ba81-4af7-92cf-488b065d09f3"
+          "name": "collect stones",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stone",
+              "quantity": "1"
+            }
+          ]
         },
         {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "1b041a9f-442c-4c7f-a0a2-f458c2720282"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "7f76b1ae-2532-4d96-9fc2-d7c4b94e06d1"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "0683e0ac-e360-4ce0-b707-704ec502312e"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "855bb26b-2aa1-4e82-b0f8-b44cefc17264"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "f001c165-e982-4509-a986-9e3715d3f8da"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "a67a66a7-608d-432f-893d-2d9fe454ba9e"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "ebd94167-b83e-4a42-ae39-054342c7224c"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "b48dc7a9-46a3-4973-8cbe-f26935344578"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "5accbd67-dbcf-496e-b643-45d751c916ed"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "2220b338-fbef-4a99-b65f-b7a55e713847"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "5302b408-8ae7-44da-8856-f903f4e27b35"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "c4af7aa9-df66-44bb-afc1-92217a29c66d"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "6c92ce19-240f-467c-bd29-9e63d55f3145"
-        },
-        {
-            "actions": [],
-            "tileType": "Mountain",
-            "visual": "⛰️",
-            "id": "29b97f5d-23f9-4916-9682-9cd02cd24365"
+          "name": "mine",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "pickaxe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "random-item",
+              "possibleDrops": [
+                {
+                  "itemName": "stone",
+                  "quantity": 4,
+                  "probability": 0.5
+                },
+                {
+                  "itemName": "iron",
+                  "quantity": 4,
+                  "probability": 0.3
+                },
+                {
+                  "itemName": "gold",
+                  "quantity": 4,
+                  "probability": 0.15
+                },
+                {
+                  "itemName": "diamond",
+                  "quantity": 4,
+                  "probability": 0.05
+                }
+              ]
+            }
+          ]
         }
-    ]
+      ],
+      "tileType": "Mine",
+      "visual": "🪨",
+      "id": "e8faa69b-531b-438a-a7a5-f63d15fc2163"
+    },
+    {
+      "description": "You are at a quarry.",
+      "actions": [
+        {
+          "name": "collect stones",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stone",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "name": "mine",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "pickaxe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "random-item",
+              "possibleDrops": [
+                {
+                  "itemName": "stone",
+                  "quantity": 4,
+                  "probability": 0.5
+                },
+                {
+                  "itemName": "iron",
+                  "quantity": 4,
+                  "probability": 0.3
+                },
+                {
+                  "itemName": "gold",
+                  "quantity": 4,
+                  "probability": 0.15
+                },
+                {
+                  "itemName": "diamond",
+                  "quantity": 4,
+                  "probability": 0.05
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tileType": "Mine",
+      "visual": "🪨",
+      "id": "2193b3fe-3b65-4300-8ca5-bdb5f3b139cb"
+    },
+    {
+      "visual": "⬜",
+      "id": "83e948e5-d949-4540-b06c-526dd782eec2"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "52645cca-2cb6-435d-987b-39c82ab14cf5"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "52d2fda4-ef21-4dba-b248-660c4a366498"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "c1873ba0-246c-4739-adc7-12967c5c2d95"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "eee2c641-9841-4f68-a801-1916fe57f7c4"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "e5ea846c-cc91-4082-99ea-da94864ce51b"
+    },
+    {
+      "visual": "⬜",
+      "id": "9848a80c-a50c-4c05-8afc-0fdab5c158de"
+    },
+    {
+      "visual": "⬜",
+      "id": "71b39aa3-4789-442d-b3eb-8f1ae436800d"
+    },
+    {
+      "visual": "⬜",
+      "id": "a9e8612a-1424-4afa-9cf7-f2a1c083b6d6"
+    },
+    {
+      "visual": "⬜",
+      "id": "c522c814-c6d6-4c88-9b1b-8216ee06680b"
+    },
+    {
+      "visual": "⬜",
+      "id": "d376d215-29d4-4c03-9c84-c10ed33497ae"
+    },
+    {
+      "visual": "⬜",
+      "id": "58f4e080-e238-4b1b-bded-a42d047cbae5"
+    },
+    {
+      "visual": "⬜",
+      "id": "9fec89e1-75db-40d3-bbe9-8f1e9b600c3f"
+    },
+    {
+      "description": "You are at a quarry.",
+      "actions": [
+        {
+          "name": "collect stones",
+          "cooldown": 2,
+          "preconditions": [],
+          "results": [
+            {
+              "type": "item",
+              "itemName": "stone",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "name": "mine",
+          "cooldown": 5,
+          "preconditions": [
+            {
+              "type": "item",
+              "itemType": "pickaxe",
+              "itemWear": 1
+            }
+          ],
+          "results": [
+            {
+              "type": "random-item",
+              "possibleDrops": [
+                {
+                  "itemName": "stone",
+                  "quantity": 4,
+                  "probability": 0.5
+                },
+                {
+                  "itemName": "iron",
+                  "quantity": 4,
+                  "probability": 0.3
+                },
+                {
+                  "itemName": "gold",
+                  "quantity": 4,
+                  "probability": 0.15
+                },
+                {
+                  "itemName": "diamond",
+                  "quantity": 4,
+                  "probability": 0.05
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tileType": "Mine",
+      "visual": "🪨",
+      "id": "f447df8d-2b18-4d02-9d2c-ed74f1e30df2"
+    },
+    {
+      "visual": "⬜",
+      "id": "32bda534-f77d-450f-bb46-1ca7f9514859"
+    },
+    {
+      "visual": "⬜",
+      "id": "c8d62553-e419-4d93-a41a-6ae66a0efa0a"
+    },
+    {
+      "visual": "⬜",
+      "id": "44106e8e-6312-44d0-b728-bad36f0ef424"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "f3712114-b22c-4dfa-8891-cc1a8dd2203d"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "f153272f-1144-45f9-89f1-279ba83ca24e"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "f43b43af-7aa9-4231-9887-5c38c844668e"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "a4774a01-9fd8-4279-8021-85c17745e7e8"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "02296acf-c266-468b-b1d2-cdc2b81fbed0"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "ec57974e-bf3b-407d-84f0-038edf82f7c4"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "b1a9ebb6-3c22-48ec-9046-a53e9addb638"
+    },
+    {
+      "visual": "⬜",
+      "id": "e84fe9aa-2626-4dde-8d99-8199d38ccf28"
+    },
+    {
+      "visual": "⬜",
+      "id": "6b4a9d6b-fa39-4d10-b643-69965309ea3c"
+    },
+    {
+      "visual": "⬜",
+      "id": "990cf446-062a-466f-a204-168500e2a904"
+    },
+    {
+      "visual": "⬜",
+      "id": "83146ed5-9bf7-414d-84e1-1f50068324d2"
+    },
+    {
+      "visual": "⬜",
+      "id": "06a164c7-cdd2-4621-b9af-2b45ac61f4c2"
+    },
+    {
+      "visual": "⬜",
+      "id": "baaa8337-ffe8-480d-a81c-f9c7926b5a64"
+    },
+    {
+      "visual": "⬜",
+      "id": "ecb3b435-292d-45c1-9242-1d07750b4523"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "f82e65de-e179-42fc-8f42-adec81a05f26"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "8609b0a5-917f-4819-bbc0-fd16817ec19e"
+    }
+  ],
+  [
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "15ac0e38-ba81-4af7-92cf-488b065d09f3"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "1b041a9f-442c-4c7f-a0a2-f458c2720282"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "7f76b1ae-2532-4d96-9fc2-d7c4b94e06d1"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "0683e0ac-e360-4ce0-b707-704ec502312e"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "855bb26b-2aa1-4e82-b0f8-b44cefc17264"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "f001c165-e982-4509-a986-9e3715d3f8da"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "a67a66a7-608d-432f-893d-2d9fe454ba9e"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "ebd94167-b83e-4a42-ae39-054342c7224c"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "b48dc7a9-46a3-4973-8cbe-f26935344578"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "5accbd67-dbcf-496e-b643-45d751c916ed"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "2220b338-fbef-4a99-b65f-b7a55e713847"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "5302b408-8ae7-44da-8856-f903f4e27b35"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "c4af7aa9-df66-44bb-afc1-92217a29c66d"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "6c92ce19-240f-467c-bd29-9e63d55f3145"
+    },
+    {
+      "actions": [],
+      "tileType": "Mountain",
+      "visual": "⛰️",
+      "id": "29b97f5d-23f9-4916-9682-9cd02cd24365"
+    }
+  ]
 ]

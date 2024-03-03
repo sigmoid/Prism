@@ -8,17 +8,20 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
     "jquery": "^3.7.1",
+    "popper": "^1.0.1",
     "popper.js": "^1.16.1",
+    "prism-data": "file:../prism-data",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
+    "react-native-modal-selector-searchable": "^2.1.6",
     "react-scripts": "5.0.1",
+    "react-select-search": "^4.1.7",
     "react-simple-code-editor": "^0.13.1",
     "use-debounced-effect": "^2.0.1",
     "uuid": "^9.0.1",
-    "web-vitals": "^2.1.4",
-    "prism-data": "file:../prism-data"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

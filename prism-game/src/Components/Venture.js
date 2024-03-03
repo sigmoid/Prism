@@ -70,9 +70,9 @@ const Venture = (props) => {
             return (<span>{
                 row.map((tile, xIdx) => {
                     if (gameData.playerPosition[0] === xIdx && gameData.playerPosition[1] === yIdx)
-                        return (<label className='ms-1'>👨</label>);
+                        return (<label className='ms-1 emoji'>👨</label>);
                     else
-                        return (<label className='ms-1'> {tile.visual}</label>);
+                        return (<label className='ms-1 emoji'> {tile.visual}</label>);
                 })}
                 <br />
             </span>);
